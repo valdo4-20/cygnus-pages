@@ -1,0 +1,1 @@
+var e=`cygnus-show-missing-audio-library-notice`,t=`cygnus-missing-audio-notice-change`;function n(){try{return localStorage.getItem(e)===`true`}catch{return!1}}function r(n){try{localStorage.setItem(e,String(n))}catch{}window.dispatchEvent(new Event(t))}function i(e){return window.addEventListener(t,e),()=>window.removeEventListener(t,e)}export{r as n,i as r,n as t};

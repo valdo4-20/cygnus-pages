@@ -7,6 +7,11 @@
   "start_url": "./#/",
   "scope": "./",
   "display": "standalone",
+  "share_target": {
+    "action": "./?shared=1#/downloads",
+    "method": "GET",
+    "params": { "title": "title", "text": "text", "url": "url" }
+  },
   "background_color": "#090a0c",
   "theme_color": "#090a0c",
   "icons": [

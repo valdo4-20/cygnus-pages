@@ -1,1 +1,0 @@
-import{O as e}from"./LibraryContext-CxHgnaX1.js";var t=e();function n({title:e,description:n,action:r}){return(0,t.jsxs)(`div`,{className:`section-heading`,children:[(0,t.jsxs)(`div`,{children:[(0,t.jsx)(`h2`,{children:e}),n&&(0,t.jsx)(`p`,{children:n})]}),r]})}export{n as t};
